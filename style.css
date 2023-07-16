@@ -1,0 +1,49 @@
+body{
+    background-color: aquamarine;
+}
+
+.main-div{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    width: 50%;
+    height: 25rem;
+    margin: 100px auto;
+    background-color: bisque;
+    line-height: 3;
+}
+.inner-div{
+    justify-content: flex-start;
+    align-self: start;
+    /* padding: 20px; */
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+#submit{
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    border: transparent;
+    height: 2rem;
+    width: 5rem;
+  /* margin-left: 300px; */
+}
+.result{
+    display: flex;
+}
+.result button{
+    height: 2.5rem;
+    width: 7rem;
+    margin: 20px;
+    display: none;
+    border: transparent;
+    background-color: cadetblue;
+    font-weight: bold;
+}
